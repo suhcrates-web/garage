@@ -49,7 +49,7 @@ for i in range(num+1):
 
         with open(f'data/sichong_samsung.csv', 'a+') as f:
             f.writelines([str(today0),',',str(sum_all),',',str(sum_30),',',str(samsung),',',str(sum_30_rate),',',
-                                                                                                str(samsung_rate),'\n'])
+                          str(samsung_rate),'\n'])
         print(dics[today0])
         time.sleep(4)
     except:

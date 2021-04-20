@@ -1,3 +1,6 @@
-a = '123'
+from datetime import timedelta, datetime
 
-print(3*'0' +a)
+
+# print(datetime.today().strftime('%Y%m%d'))
+for i in range(60):
+    print((datetime.today()- timedelta(days=i)).strftime('%Y%m%d'))
